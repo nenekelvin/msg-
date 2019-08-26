@@ -1,1 +1,4 @@
-<h1>hii ni index</h1>
+<% @messages.each do |message| %>
+	<h2><%= message.description %></h2>
+<% end%>
+<%= link_to "New Message" %>
