@@ -17,6 +17,13 @@ class MessagesController < ApplicationController
 		else
 			render 'new'
 			end
+			def edit
+
+			end
+			def update
+			end
+			def destroy
+			end
 	end
 	 private
 	 def message_params
