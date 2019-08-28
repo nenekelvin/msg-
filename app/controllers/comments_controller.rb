@@ -1,9 +1,10 @@
 class CommentsController < ApplicationController
- before_action :find_message
+ before_action :find_message, only: [:create, :edit, :update, :destroy]
  before_action :find_comment, only: [:edit, :update, :destroy]
+
 	def create
-	@comment = @message.comments.create(comment_params)
-	@comment.user_id = current_user.id
+		@comment = @message.comments.create(comment_params)
+		@comment.user_id = current_user.id
 
 	if @comment.save
 		redirect_to message_path(@message)
