@@ -2,7 +2,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-/* General styles */
+
 
 body {
 	background-color: #fff;
@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-custom {
-	background-color: #ABAD26;
+	background-color: #DEE7E9;
 	color: #0a8fd5;
 	font-family: 'Muli', sans-serif; 
 	font-weight: 300;
@@ -24,19 +24,19 @@ h1, h2, h3, h4, h5, h6 {
 	&:hover {
 		color: #383838;
 		transition: 0.5s;
-		background-color: #ABAD26;
+		background-color: #5AE813;
 		text-decoration: none;
 	}
 }
 
 .btn:hover {
 	transition: 0.5s;
-	color: #383838;
-	background-color: #ABAD26;
+	color: #FE0303;
+	background-color: #DEE7E9;
 }
 
 
-/* Navbar styles */
+
 
 .navbar {
 	font-family: 'Muli', sans-serif;
@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 
 	padding-top: 5px;
 	padding-bottom: 5px;
-	background-color: #ABAD26;
+	background-color: #F2F4EB;
 
 	.navbar-nav > li > a {
 		color: #222;
@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* Links styles */
+
 
 .links {
 	margin-top: 20px;
@@ -75,24 +75,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* Message styles */
+
 
 .message {
 	box-sizing: border-box;
-	background-color: #795E06;
+	background-color: #138A76;
 	margin-bottom: 25px;
 	margin-right: 10px;
 	margin-left: 10px;
 	padding: 1.4em 1.4em;
 	height: 150px;
-	border-bottom: 4px solid #0C0300;
+	border-bottom: 4px solid #893C5B;
 
 	.message-title {
 		font-size: 1.5em;
 		font-family: 'Muli', sans-serif;
 		font-weight: 300;
 		margin-top: 0;
-		color: white;
+		color: black;
 		margin-bottom: 25px;
 	}
 
@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
 	clear: left;
 }
 
-/* Message show-page styles */
+
 
 .message-show {
 	box-sizing: border-box;
